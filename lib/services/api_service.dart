@@ -4,8 +4,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:io';
 
 class ApiService {
-  static const String baseUrl = "http://192.168.0.110:6004/api";
-  static const String serverUrl = "http://192.168.0.110:6004";
+  static const String baseUrl = "http://72.60.99.118:6004/api";
+  static const String serverUrl = "http://72.60.99.118:6004";
   static Future login(
       String email,
       String password,
